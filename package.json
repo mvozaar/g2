@@ -1,0 +1,27 @@
+{
+  "name": "g2",
+  "version": "1.0.0",
+  "description": "my npm first",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha",
+    "dev": "live-server"
+  },
+  "keywords": [
+    "node",
+    "npm"
+  ],
+  "author": "mvozaar@hotmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "live-server": "^1.2.1",
+    "mocha": "^6.1.3"
+  }
+}
