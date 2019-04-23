@@ -5,5 +5,5 @@ describe('my first', () => {
     it('once upon a time ... ', () => assert.ok(true));
     it('is running too', () => assert.equal(true,true));
     it('is running once more time', () => assert.equal(true,true));
-    it('last but running too', () => assert.equal(false,false));
+    it('last but running too ...', () => assert.equal(false,false));
 });
